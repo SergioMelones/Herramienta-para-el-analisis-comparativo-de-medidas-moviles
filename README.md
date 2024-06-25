@@ -157,7 +157,7 @@ jupyter notebook Main.ipynb
 <p align="center">
   <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/370d36f3-8c06-432c-8aa5-1f8ec0fc2810" width="750" alt="Imagen 6">
 </p>
-4. 
+4. Una vez ahí, introducimos el nombre de los archivos que hemos tenido que añadir en las respectivas carpetas, Drive Test, Crowdsourced y Celdas. Por último, añadimos el nombre del polígono y del operador en caso de que querramos filtrar los datos por esos valores. Una vez hecho ejecutamos el resto de celdas hasta llegar a la parte de resultados.
 
 ## Interfaz
 Utilizar la herramienta desde la interfaz es mucho más sencillo.
