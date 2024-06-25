@@ -28,6 +28,10 @@ Herramienta
 |   |__ requirements.txt
 |__ README.txt
 ```
+# Breve explicación del preprocesado y procesado
+Más adelante se explican las funciones que se han creado para desarrollar la herramienta. Con el fin de entender que pasos realizan cada una de esas funciones, se explica brevemente los pasos que se realizan en cada uno de los apartados.
+## Preprocesado
+
 # Funciones creadas
 En este apartado se definirán brevemente todas las funciones desarrolladas para la herramienta
 ## Preprocessing.ipynb
