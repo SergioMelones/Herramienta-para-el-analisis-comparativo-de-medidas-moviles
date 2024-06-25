@@ -31,12 +31,20 @@ Herramienta
 
 # Instalación
 Los pasos para realizar la instalación completa de la herramienta son:  
-1. Crear un nuevo entorno de anaconda y activarlo
+1. Crear un nuevo entorno y activarlo
 ```
 conda create --name herramienta python=3.10
 conda activate herramienta
 ```
 2. Clonar este repositorio
 ```
-git clone https://github.com/rafamartinezquiles/yolov8-bib-recognition.git
+git clone https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles.git
 ```
+3. Descargar todas las dependencias necesarias, para ello una vez en el fichero que acabamos de clonar ejecutamos la siguiente línea
+```
+cd /Interfaz
+pip install -r requirements.txt
+```
+4. Una vez instaladas todas las dependencias tenemos dos opciones para hacer uso de la herramienta, a continuación se explican por separado cada una de ellas.
+
+# Notebooks
