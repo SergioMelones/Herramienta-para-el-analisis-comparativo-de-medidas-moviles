@@ -165,4 +165,6 @@ python Herramienta.py
 <p align="center">
   <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/e631e3db-c309-4f6f-913d-27dc124a4fb9" width="400" alt="Imagen 3">
 </p>
-
+<p align="center">
+  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/234e20cc-d9a0-4829-a611-278a7d3ee009" width="400" alt="Imagen 4">
+</p>
