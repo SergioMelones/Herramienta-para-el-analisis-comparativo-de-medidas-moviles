@@ -9,22 +9,45 @@ Este repositório pretende explicar brevemente el funcionamiento de la herramien
   <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a3951b8e-47d2-4e84-84cb-46007ee588b3" alt="Imagen 2" style="display: inline-block;" width="500" height="300">
 </p>
 
-# Tabla de contenidos
-Herramienta  
-├── Notebooks
+# Tabla de Contenidos
 
-│   ├── Preprocessing.ipynb
+- [Herramienta](#herramienta)
+  - [Notebooks](#notebooks)
+    - [Preprocessing.ipynb](#preprocessingipynb)
+    - [Processing.ipynb](#processingipynb)
+    - [Graphs.ipynb](#graphsipynb)
+    - [Main.ipynb](#mainipynb)
+  - [Ejemplo Datos Asturias](#ejemplo-datos-asturias)
+    - [Drive Test](#drive-test)
+    - [Crowdsourced](#crowdsourced)
+    - [Polígono.wkt (opcional)](#polígonowkt-opcional)
+  - [Interfaz](#interfaz)
+    - [Herramienta.py](#herramientapy)
+    - [requirements.txt](#requirementstxt)
+  - [README.txt](#readmetxt)
 
-│   ├── Processing.ipynb  
-│   ├── Graphs.ipynb  
-│   ├── Main.ipynb  
-├── Ejemplo Datos Asturias  
-│   ├── Drive Test  
-│   │   ├──  
-│   ├── Crowdsourced  
-│   │   ├──  
-│   ├── Polígono.wkt (opcional)  
-├── Interfaz  
-│   ├── Herramienta.py  
-│   ├── requirements.txt  
-└── README.txt  
+---
+
+## Herramienta
+
+### Notebooks
+
+- [Preprocessing.ipynb](Notebooks/Preprocessing.ipynb)
+- [Processing.ipynb](Notebooks/Processing.ipynb)
+- [Graphs.ipynb](Notebooks/Graphs.ipynb)
+- [Main.ipynb](Notebooks/Main.ipynb)
+
+### Ejemplo Datos Asturias
+
+- [Drive Test](Ejemplo%20Datos%20Asturias/Drive%20Test)
+- [Crowdsourced](Ejemplo%20Datos%20Asturias/Crowdsourced)
+- [Polígono.wkt (opcional)](Ejemplo%20Datos%20Asturias/Polígono.wkt)
+
+### Interfaz
+
+- [Herramienta.py](Interfaz/Herramienta.py)
+- [requirements.txt](Interfaz/requirements.txt)
+
+---
+
+## README.txt
