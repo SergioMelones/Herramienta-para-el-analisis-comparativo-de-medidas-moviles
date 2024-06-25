@@ -157,6 +157,7 @@ jupyter notebook Main.ipynb
 <p align="center">
   <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/370d36f3-8c06-432c-8aa5-1f8ec0fc2810" width="750" alt="Imagen 6">
 </p>
+4. 
 
 ## Interfaz
 Utilizar la herramienta desde la interfaz es mucho más sencillo.
