@@ -154,9 +154,15 @@ cd Interfaz
 python Herramienta.py
 ```
 2. Se nos abrirá una interfaz como la siguiente:
-![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a01384d8-17a9-47da-81f5-1dce0de625d2)
+<p align="center">
+  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a01384d8-17a9-47da-81f5-1dce0de625d2" width="400" alt="Imagen 1">
+</p>
 3. Una vez dentro, cargamos todos los archivos que se nos pide, seleccionamos el operador que queramos y le damos al botón naranja 'Procesar Datos'. Si todo ha funcionado deberíamos ver como la barra de abajo comienza a cargar.
-![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a180e27d-6f21-407b-b1df-3062e97d714d)
+<p align="center">
+  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a180e27d-6f21-407b-b1df-3062e97d714d" width="400" alt="Imagen 2">
+</p>
 4. Una vez termine la barra, se nos abrirá otra pestaña como la siguiente, en la cual simplemente seleccionamos el gráfico o el resultado que queramos y se nos mostrará por pantalla.
-![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/e631e3db-c309-4f6f-913d-27dc124a4fb9)
+<p align="center">
+  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/e631e3db-c309-4f6f-913d-27dc124a4fb9" width="400" alt="Imagen 3">
+</p>
 
