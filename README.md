@@ -35,7 +35,7 @@ En este apartado se definirán brevemente todas las funciones desarrolladas para
 - df (pandas.DataFrame): el DataFrame inicial con las celdas.  
 - poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).
 - operador (str): operador con el que se desea filtrar las celdas (opcional).  
-Dicha función nos devuelve el DataFrame preprocesado que contiene las celdas.  
+Dicha función nos devuelve el DataFrame preprocesado que contiene las celdas.
 **Preprocess_dataframe_ drive_test:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas del drive test. En cuanto a los argumentos de dicha función tenemos:  
 - df (pandas.DataFrame): el DataFrame inicial con las medidas del drive test.  
 - df_celdas (pandas.DataFrame): el DataFrame preprocesado que contiene las celdas.  
