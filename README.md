@@ -4,10 +4,7 @@ Las metodologías para medir el rendimiento de la red han evolucionado significa
 
 Este repositório pretende explicar brevemente el funcionamiento de la herramienta desarrollada y como se podría utilizar. La herramienta se basa en un preprocesado y procesado automático de los datos, y los resultados a los que se llegarán usando ésta serán unos histogramas agrupados por RSRP o RSRQ y la metodología utilizada.
 
-<p align="center">
-  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/ca60ebd9-e58f-4524-bc4a-5fa0d5e234d0" alt="Imagen 1" style="display: inline-block;" width="500" height="300">
-  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a3951b8e-47d2-4e84-84cb-46007ee588b3" alt="Imagen 2" style="display: inline-block;" width="500" height="300">
-</p>
+![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/ae555120-bcbd-443a-b0f7-9555f491ba0b)
 
 # Tabla de Contenidos
 ```
