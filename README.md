@@ -53,7 +53,7 @@ En este caso, el procesado de los datos que realizamos para ambos casos (drive t
 5. Calcular la RSRP y RSRQ media buscando coincidencias en el DataFrame de las medidas en bruto
 6. Homogeneizar DataFrames filtrando el de una metodología con el otro y viceversa
 # Funciones creadas
-En este apartado se definirán brevemente todas las funciones desarrolladas para la herramienta
+Una vez conocidas las operaciones que realizamos en el preprocesado y procesado de los datos, se definen brevemente todas las funciones desarrolladas para llevarlas a cabo de forma automática.
 ## Preprocessing.ipynb
 **Preprocess_dataframe_celdas:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las celdas. En cuanto a los argumentos de dicha función cuenta con:  
 - df (pandas.DataFrame): el DataFrame inicial con las celdas.  
