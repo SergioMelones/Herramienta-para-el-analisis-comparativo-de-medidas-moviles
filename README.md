@@ -127,8 +127,8 @@ Dicha función nos devuelve cuatro DataFrames:
 - rsrq_crowdsourced (pandas.DataFrame): el DataFrame filtrado que contiene los datos de RSRQ para las medidas crowdsourced presentes en el conjunto de datos del drive test.  
 
 # Instalación
-Los pasos para realizar la instalación completa de la herramienta son:  
-1. Crear un nuevo entorno y activarlo
+A continuación se explican los pasos para realizar la instalación completa de la herramienta.  
+1. Desde la terminal de anaconda, crear un nuevo entorno y activarlo
 ```
 conda create --name herramienta python=3.10
 conda activate herramienta
@@ -142,6 +142,21 @@ git clone https://github.com/SergioMelones/Herramienta-para-el-analisis-comparat
 cd /Interfaz
 pip install -r requirements.txt
 ```
-4. Una vez instaladas todas las dependencias tenemos dos opciones para hacer uso de la herramienta, a continuación se explican por separado cada una de ellas.
+4. Una vez instaladas todas las dependencias tenemos dos opciones para hacer uso de la herramienta, directamente a través de los notebooks o utilizando la interfaz desarrollada.
 
-# Notebooks
+## Notebooks
+
+## Interfaz
+Utilizar la herramienta desde la interfaz es mucho más sencillo.
+1. Accedemos al directorio donde tenemos el archivo Herramienta.py, para ello ejecutamos:
+```
+cd Interfaz
+python Herramienta.py
+```
+2. Se nos abrirá una interfaz como la siguiente:
+![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a01384d8-17a9-47da-81f5-1dce0de625d2)
+3. Una vez dentro, cargamos todos los archivos que se nos pide, seleccionamos el operador que queramos y le damos al botón naranja 'Procesar Datos'. Si todo ha funcionado deberíamos ver como la barra de abajo comienza a cargar.
+![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a180e27d-6f21-407b-b1df-3062e97d714d)
+4. Una vez termine la barra, se nos abrirá otra pestaña como la siguiente, en la cual simplemente seleccionamos el gráfico o el resultado que queramos y se nos mostrará por pantalla.
+![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/e631e3db-c309-4f6f-913d-27dc124a4fb9)
+
