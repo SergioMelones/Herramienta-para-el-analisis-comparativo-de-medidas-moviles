@@ -36,3 +36,7 @@ Los pasos para realizar la instalación completa de la herramienta son:
 conda create --name herramienta python=3.10
 conda activate herramienta
 ```
+2. Clonar este repositorio
+```
+git clone https://github.com/rafamartinezquiles/yolov8-bib-recognition.git
+```
