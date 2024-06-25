@@ -155,7 +155,7 @@ jupyter notebook Main.ipynb
 ```
 3. Si todo ha ido bien, se nos debería abrir el notebook y ver una interfaz similar a la siguiente:
 <p align="center">
-  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/370d36f3-8c06-432c-8aa5-1f8ec0fc2810" width="400" alt="Imagen 6">
+  <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/370d36f3-8c06-432c-8aa5-1f8ec0fc2810" width="700" alt="Imagen 6">
 </p>
 
 ## Interfaz
