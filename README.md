@@ -29,9 +29,29 @@ Herramienta
 |__ README.txt
 ```
 # Breve explicación del preprocesado y procesado
-Más adelante se explican las funciones que se han creado para desarrollar la herramienta. Con el fin de entender que pasos realizan cada una de esas funciones, se explica brevemente los pasos que se realizan en cada uno de los apartados.
+Más adelante se explican las funciones que se han creado para desarrollar la herramienta. Con el fin de entender que operaciones realizan cada una de esas funciones, se explica a continuación brevemente los pasos que se realizan en cada uno de los apartados.
 ## Preprocesado
-
+### Drive Test
+1. Corregir geolocalización
+2. Delimitar el alcance geográfico de los datos
+3. Calcular un identificador único de las medidas
+4. Asignar la banda de frecuencia correspondiente a cada medida
+5. Asignar franja horaria y día de la semana a cada medida
+6. Calcular geohash de la medida
+### Crowdsourced
+1. Calcular un identificador único de las medidas
+2. Delimitar el alcance geográfico de los datos
+3. Filtrar los datos para hacerlos lo más semejantes a los del drive test
+4. Asignar franja horaria y día de la semana a cada medida
+5. Calcular geohash de la medida
+## Procesado
+En este caso, el procesado de los datos que realizamos para ambos casos (drive test y crowdsourced) es el mismo:
+1. Crear DataFrame de geohashes únicos
+2. Asignar bandas de frecuencia y CGI (identificador único) a cada geohash
+3. Crear una copia del DataFrame para la RSRP y otra para la RSRQ
+4. Asignar franja horaria en el DataFrame de la RSRQ
+5. Calcular la RSRP y RSRQ media buscando coincidencias en el DataFrame de las medidas en bruto
+6. Homogeneizar DataFrames filtrando el de una metodología con el otro y viceversa
 # Funciones creadas
 En este apartado se definirán brevemente todas las funciones desarrolladas para la herramienta
 ## Preprocessing.ipynb
