@@ -34,13 +34,15 @@ En este apartado se definirán brevemente todas las funciones desarrolladas para
 **Preprocess_dataframe_celdas:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las celdas. En cuanto a los argumentos de dicha función cuenta con:  
 - df (pandas.DataFrame): el DataFrame inicial con las celdas.  
 - poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).
-- operador (str): operador con el que se desea filtrar las celdas (opcional).  
+- operador (str): operador con el que se desea filtrar las celdas (opcional).
+
 Dicha función nos devuelve el DataFrame preprocesado que contiene las celdas.
 
 **Preprocess_dataframe_ drive_test:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas del drive test. En cuanto a los argumentos de dicha función tenemos:  
 - df (pandas.DataFrame): el DataFrame inicial con las medidas del drive test.  
 - df_celdas (pandas.DataFrame): el DataFrame preprocesado que contiene las celdas.  
-- poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).  
+- poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).
+
 Dicha función nos devuelve el DataFrame preprocesado de las medidas del drive test.
 
 **Preprocess_dataframe_crowdsourced:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas crowdsourced. En cuanto a los argumentos de dicha función tenemos:  
@@ -48,23 +50,27 @@ Dicha función nos devuelve el DataFrame preprocesado de las medidas del drive t
 - df_drive_test (pandas.DataFrame): el DataFrame preprocesado que contiene las medidas del drive test.  
 - poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).  
 - Operador (str): operador con el que se desea filtrar las celdas (opcional).
+
 Dicha función nos devuelve el DataFrame preprocesado de las medidas crowdsourced.
 
 ## Processing.ipynb
 **Process_dataframe:** se trata de la función encargada de realizar el procesado de los datos. En cuanto a los argumentos de dicha función tenemos:  
-- df (pandas.DataFrame): el DataFrame preprocesado que contiene las medidas del drive test o las medidas crowdsourced (ya que el procesado es igual para ambos DataFrames).  
+- df (pandas.DataFrame): el DataFrame preprocesado que contiene las medidas del drive test o las medidas crowdsourced (ya que el procesado es igual para ambos DataFrames).
+ 
 Dicha función nos devuelve el DataFrame procesado, ya sea el del drive test o el de las medidas crowdsourced.
 
 **Process_dataframe_rsrp_rsrq:** como se explicó en uno de los apartados del punto 2.3.2 necesitaríamos dividir nuestros Dataframes procesados en dos, uno para la RSRP y otro para la RSRQ. Seguido de esto se calcularía la media de la RSRP y para la RSRQ se asignaría la ‘Franja_horaria’ y a continuación se calcularía la media. Esta función es la que se encarga de realizar todo lo mencionado y sus argumentos necesarios son:  
 - df_copia (pandas.DataFrame): El DataFrame que se va a copiar para la RSRP y la RSRQ, ya sea el de las medidas del drive test o el de las medidas crowdsourced.  
-- df_valores (pandas.DataFrame): El DataFrame inicial del cual se extraen los valores para calcular las medias de RSRP y RSRQ. Si se pasó como argumento anterior el DataFrame procesado del drive test, se pasará como argumento el DataFrame inicial del drive test y de la misma forma con los DataFrames de las medidas crowdsourced.  
+- df_valores (pandas.DataFrame): El DataFrame inicial del cual se extraen los valores para calcular las medias de RSRP y RSRQ. Si se pasó como argumento anterior el DataFrame procesado del drive test, se pasará como argumento el DataFrame inicial del drive test y de la misma forma con los DataFrames de las medidas crowdsourced.
+ 
 Dicha función nos devuelve los DataFrames con la RSRP y la RSRQ medias calculadas.
 
 **Filtrar_coincidencias:** se trata de la función encargada de realizar la comparación de los datos procesados de ambas metodologías. En cuanto a los argumentos de dicha función tenemos:  
 - df1 (pandas.DataFrame): el DataFrame procesado que contiene los datos de RSRP para las medidas del drive test.  
 - df2 (pandas.DataFrame): el DataFrame procesado que contiene los datos de RSRP para las medidas crowdsourced.  
 - df3 (pandas.DataFrame): el DataFrame procesado que contiene los datos de RSRQ para las medidas del drive test.  
-- df4 (pandas.DataFrame): el DataFrame procesado que contiene los datos de RSRQ para las medidas crowdsourced.  
+- df4 (pandas.DataFrame): el DataFrame procesado que contiene los datos de RSRQ para las medidas crowdsourced.
+
 Dicha función nos devuelve cuatro DataFrames:  
 - filtered_df1 (pandas.DataFrame): el DataFrame filtrado que contiene los datos de RSRP para las medidas del drive test que estén presentes en el conjunto de datos crowdsourced.  
 - filtered_df2 (pandas.DataFrame): el DataFrame filtrado que contiene los datos de RSRP para las medidas crowdsourced que estén presentes en el conjunto de datos del drive test.  
