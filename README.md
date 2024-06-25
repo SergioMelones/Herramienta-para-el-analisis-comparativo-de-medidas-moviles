@@ -8,3 +8,22 @@ Este repositório pretende explicar brevemente el funcionamiento de la herramien
   <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/ca60ebd9-e58f-4524-bc4a-5fa0d5e234d0" alt="Imagen 1" style="display: inline-block;" width="500" height="300">
   <img src="https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/a3951b8e-47d2-4e84-84cb-46007ee588b3" alt="Imagen 2" style="display: inline-block;" width="500" height="300">
 </p>
+
+# Tabla de Contenidos
+
+- Herramienta
+  - Notebooks
+    - Preprocessing.ipynb
+    - Processing.ipynb
+    - Graphs.ipynb
+    - Main.ipynb
+  - Datos
+    - Drive Test
+        -
+    - Crowdsourced
+        -
+    - Polígono.wkt (opcional)
+  - Interfaz
+    - Herramienta.py
+    - requirements.txt
+- README.txt
