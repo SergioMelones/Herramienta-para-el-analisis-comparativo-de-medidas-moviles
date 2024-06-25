@@ -144,6 +144,18 @@ pip install -r requirements.txt
 4. Una vez instaladas todas las dependencias tenemos dos opciones para hacer uso de la herramienta, directamente a través de los notebooks o utilizando la interfaz desarrollada.
 
 ## Notebooks
+Para acceder desde el notebook, los pasos a seguir son:
+1. Accedemos al directorio donde tenemos los notebooks
+```
+cd Notebooks
+```
+2. Una vez dentro, ejecutamos el notebook llamado Main.ipynb, el cual ya tiene todos los demás módulos importados, para ello ejecutamos:
+```
+jupyter notebook Main.ipynb
+```
+3. Si todo ha ido bien, se nos debería abrir el notebook y ver una interfaz similar a la siguiente:
+
+![image](https://github.com/SergioMelones/Herramienta-para-el-analisis-comparativo-de-medidas-moviles/assets/126664020/370d36f3-8c06-432c-8aa5-1f8ec0fc2810)
 
 ## Interfaz
 Utilizar la herramienta desde la interfaz es mucho más sencillo.
