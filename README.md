@@ -34,18 +34,18 @@ En este apartado se definirán brevemente todas las funciones desarrolladas para
 •	**Preprocess_dataframe_celdas:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las celdas. En cuanto a los argumentos de dicha función cuenta con:  
 - df (pandas.DataFrame): el DataFrame inicial con las celdas.  
 - poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).
-- operador (str): operador con el que se desea filtrar las celdas (opcional).  
+- operador (str): operador con el que se desea filtrar las celdas (opcional).
 Dicha función nos devuelve el DataFrame preprocesado que contiene las celdas.  
-•	Preprocess_dataframe_ drive_test: se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas del drive test. En cuanto a los argumentos de dicha función tenemos:  
-  o	df (pandas.DataFrame): el DataFrame inicial con las medidas del drive test.  
-  o	df_celdas (pandas.DataFrame): el DataFrame preprocesado que contiene las celdas.  
-  o	poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).  
+•	**Preprocess_dataframe_ drive_test:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas del drive test. En cuanto a los argumentos de dicha función tenemos:  
+- df (pandas.DataFrame): el DataFrame inicial con las medidas del drive test.  
+- df_celdas (pandas.DataFrame): el DataFrame preprocesado que contiene las celdas.  
+- poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).
 Dicha función nos devuelve el DataFrame preprocesado de las medidas del drive test.  
-•	Preprocess_dataframe_crowdsourced: se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas crowdsourced. En cuanto a los argumentos de dicha función tenemos:  
-  o	df (pandas.DataFrame): el DataFrame inicial con las medidas del drive test.  
-  o	df_drive_test (pandas.DataFrame): el DataFrame preprocesado que contiene las medidas del drive test.  
-  o	poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).  
-  o	Operador (str): operador con el que se desea filtrar las celdas (opcional).  
+•	**Preprocess_dataframe_crowdsourced:** se trata de la función encargada de realizar el preprocesado de los datos que contienen las medidas crowdsourced. En cuanto a los argumentos de dicha función tenemos:  
+- df (pandas.DataFrame): el DataFrame inicial con las medidas del drive test.  
+- df_drive_test (pandas.DataFrame): el DataFrame preprocesado que contiene las medidas del drive test.  
+- poligono (str): ruta al archivo .wkt que contiene el polígono (opcional).  
+- Operador (str): operador con el que se desea filtrar las celdas (opcional).
 Dicha función nos devuelve el DataFrame preprocesado de las medidas crowdsourced.
 # Instalación
 Los pasos para realizar la instalación completa de la herramienta son:  
