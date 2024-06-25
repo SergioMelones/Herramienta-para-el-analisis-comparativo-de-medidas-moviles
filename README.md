@@ -10,20 +10,23 @@ Este repositório pretende explicar brevemente el funcionamiento de la herramien
 </p>
 
 # Tabla de Contenidos
+```
+Herramienta
+|__ Notebooks
+|   |__ Preprocessing.ipynb
+|   |__ Processing.ipynb
+|   |__ Graphs.ipynb
+|   |__ Main.ipynb
+|__ Datos
+|   |__ Drive Test
+|   |   |__ 
+|   |__ Crowdsourced
+|   |   |__ 
+|   |__ Polígono.wkt (opcional)
+|__ Interfaz
+|   |__ Herramienta.py
+|   |__ requirements.txt
+|__ README.txt
+```
 
-- Herramienta
-  - Notebooks
-    - Preprocessing.ipynb
-    - Processing.ipynb
-    - Graphs.ipynb
-    - Main.ipynb
-  - Datos
-    - Drive Test
-        -
-    - Crowdsourced
-        -
-    - Polígono.wkt (opcional)
-  - Interfaz
-    - Herramienta.py
-    - requirements.txt
-- README.txt
+# Instalación
