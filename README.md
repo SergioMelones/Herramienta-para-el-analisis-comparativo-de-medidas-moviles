@@ -11,8 +11,10 @@ Este repositório pretende explicar brevemente el funcionamiento de la herramien
 
 # Tabla de contenidos
 Herramienta  
-├── Notebooks  
-│   ├── Preprocessing.ipynb  
+├── Notebooks
+
+│   ├── Preprocessing.ipynb
+
 │   ├── Processing.ipynb  
 │   ├── Graphs.ipynb  
 │   ├── Main.ipynb  
