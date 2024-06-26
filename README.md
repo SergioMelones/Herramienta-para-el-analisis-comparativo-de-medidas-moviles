@@ -138,7 +138,8 @@ git clone https://github.com/SergioMelones/Herramienta-para-el-analisis-comparat
 ```
 3. Descargar todas las dependencias necesarias, para ello una vez en el fichero que acabamos de clonar ejecutamos la siguiente línea
 ```
-cd /Interfaz
+cd Herramienta-para-el-analisis-comparativo-de-medidas-moviles
+cd Herramienta/Interfaz
 pip install -r requirements.txt
 ```
 4. Una vez instaladas todas las dependencias tenemos dos opciones para hacer uso de la herramienta, directamente a través de los notebooks o utilizando la interfaz desarrollada.
