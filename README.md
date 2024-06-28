@@ -25,7 +25,6 @@ Herramienta
 |__ Interfaz
 |   |__ Herramienta.py
 |   |__ requirements.txt
-|__ README.txt
 ```
 # Breve explicación del preprocesado y procesado
 Más adelante se explican las funciones que se han creado para desarrollar la herramienta. Con el fin de entender que operaciones realizan cada una de esas funciones, se explica a continuación brevemente los pasos que se realizan en cada uno de los apartados.
